@@ -1,0 +1,97 @@
+.task{
+    background-color: #273852;
+    
+    
+}
+.hea{
+    width: 18%;
+    margin: auto;
+   border: 1px solid #273852;
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+h6{
+    margin-top: -25px;
+}
+.cen{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+
+.upp{
+    text-transform: uppercase;
+}
+.border{
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+}
+.first{
+    padding: 15px;
+}
+#ai{
+    width: 170px;
+}
+.second{
+    margin-left: 45%;
+    padding-top: 20px;
+
+}
+.second p{
+    text-transform: uppercase;
+}
+.third{
+    margin-left: 80%;
+    margin-top: -3%;
+}
+.third p{
+    text-transform: uppercase;
+}
+.allin{
+    margin-left: 20%;
+    margin-top: -14%;
+}
+.allin1{
+    margin-left: 20%;
+    margin-top: -14%;
+}
+.allin2{
+    margin-left: 20%;
+    margin-top: -14%;
+}
+#for1{
+    width: 150px;
+
+}
+#butt{
+    background-color: black;
+    color: white;
+}
+h2{
+    text-transform: uppercase;
+}
+#read{
+    background-color: #d25b43;
+}
+#read1{
+    background-color: #d25b43;
+}
+#read2{
+    background-color: #d25b43;
+}
+footer{
+    background-color:#273852; 
+    margin-top: 40px;
+    
+}
+footer p{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}

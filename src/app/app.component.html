@@ -1,62 +1,76 @@
 <h1>welcome to {{title}}</h1>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
  <div class="task">
     <div class="hea">
-<p style="background-color: white;font-size: 25px;text-transform: uppercase;">news blog<br><p style="background-color: white;margin-top: -5px;font-size: 10px;text-transform: uppercase;">world wide news</p></p>
+<p class="back1">news blog<br><p class="pink">world wide news</p></p>
     </div>
 </div>
-<div class="row cros">
- <div class="first" style="float: left;">
- <p class="upp">slect category</p>
- <select name="all" id="ai">
-     <option value="all">ALL</option>
-     <option value="title one">Title one</option>
-     <option value="title two">Title two</option>
-     <option value="title three">Title three</option>
- </select>
- </div>
- <div class="second">
-     <p>all news</p>
+    <div class="w3-row">
+    <div class="w3-third w3-container">
+        <p class="upp">select category:</p>
+        <select name="all" id="ai">
+            <option value="all">ALL</option>
+            <option value="title one">Title one</option>
+            <option value="title two">Title two</option>
+            <option value="title three">Title three</option>
+        </select>
+    </div>
+    <div class="w3-third w3-container">
+        <p class="news">all news</p>
 
- </div>
- <div class="third">
- <p>subscribe</p>
- <form action="">
- <input type="text" placeholder="EmailAddress" id="for1"><input type="button" value="Subscribe" id="butt">
- </form>
- </div>
-</div>
+    </div>
+    <div class="w3-third w3-container">
+        <p class="sub">subscribe</p>
+        <form action="" class="form">
+        <input type="text" placeholder="EmailAddress" id="for1"><input type="button" value="Subscribe" id="butt">
+        </form>
+    </div>
+    </div>
+
+ 
+ 
+ 
 <div class="border">
     
 </div>
-<div class="img">
-   <p>  <img  [src]="myimages1" alt=""></p>
-   <div class="allin" >
-       <h2>title one</h2>
-       <h6>posted on 21 sept, 2020 // category</h6>
-       <p>The angular was release by "Google company", a google employee by the name of "Misko Hevery", was developin a side project. This project was to help make building web applications easier for a couple internal projects he was working on. This side project later became known as angularjs.</p>
-        <input type="button" value="Continue Reading.." id="read">
-   </div>
-</div>
-<hr>
-<div class="img2">
-   <p> <img  [src]="myimages1" alt=""></p>
-    <div class="allin1">
-        <h2>title two</h2>
-        <h6>posted on 21 sept, 2020 // category</h6>
-        <p>Angular, the Angular CLI, and Angular applications depend on npm packages for many features and functions. To download and install npm packages, you need an npm package manager. This guide uses the npm client command line interface, which is installed with Node.js by default. To check that you have the npm client installed, run npm -v in a terminal window..</p>
-        <input type="button" value="Continue Reading.." id="read1">
+
+<div class="w3-row">
+    <div class="w3-quarter w3-container ">
+        <p>  <img  [src]="myimages1" alt=""></p>
     </div>
- </div>
- <hr>
- <div class="img3">
-    <p><img [src]="myimages1" alt=""></p>
-    <div class="allin2">
-        <h2>title three</h2>
+    <div class="w3-threequarter w3-container" style="padding-left:50px">
+        <h2>title one</h2>
         <h6>posted on 21 sept, 2020 // category</h6>
         <p>The angular was release by "Google company", a google employee by the name of "Misko Hevery", was developin a side project. This project was to help make building web applications easier for a couple internal projects he was working on. This side project later became known as angularjs.</p>
-        <input type="button" value="Continue Reading.." id="read2">
+         <a href=""><input type="button" value="Continue Reading.." id="read"></a>
     </div>
- </div>
+    </div>
+ <hr>
+    <div class="w3-row">
+        <div class="w3-quarter w3-container ">
+            <p>  <img  [src]="myimages1" alt=""></p>
+        </div>
+        <div class="w3-threequarter w3-container" style="padding-left:50px">
+            <h2>title two</h2>
+            <h6>posted on 21 sept, 2020 // category</h6>
+            <p>The angular was release by "Google company", a google employee by the name of "Misko Hevery", was developin a side project. This project was to help make building web applications easier for a couple internal projects he was working on. This side project later became known as angularjs.</p>
+            <a href=""> <input type="button" value="Continue Reading.." id="tomo"></a>
+        </div>
+        </div>
+<hr>
+        <div class="w3-row">
+            <div class="w3-quarter w3-container ">
+                <p>  <img  [src]="myimages1" alt=""></p>
+            </div>
+            <div class="w3-threequarter w3-container" style="padding-left:50px">
+                <h2>title three</h2>
+                <h6>posted on 21 sept, 2020 // category</h6>
+                <p>The angular was release by "Google company", a google employee by the name of "Misko Hevery", was developin a side project. This project was to help make building web applications easier for a couple internal projects he was working on. This side project later became known as angularjs.</p>
+                 <a href=""><input type="button" value="Continue Reading.." id="red"></a>
+            </div>
+            </div>
+
   <footer>
        <p>© NewsFeed 2020</p>
   </footer>
